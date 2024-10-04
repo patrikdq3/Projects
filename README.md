@@ -1,2 +1,2 @@
 # Projects
-All my major projects
+All my major projects while attending UCF
