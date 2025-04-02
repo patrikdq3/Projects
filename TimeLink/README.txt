@@ -13,3 +13,5 @@ Schedule Input & Management: Users can input and edit their schedules.
 Friend Schedule Comparison: Compare schedules with added friends.
 
 Visual Conflict Display: Highlights conflicting time slots for better planning.
+
+Website URL: https://wattareyoudoing.us/
