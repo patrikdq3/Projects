@@ -1,0 +1,14 @@
+[tools]
+node = "24.14.0"
+bun = "1.3.14"
+
+# Shorthand for a checkout that already has mise working. `bash
+# tools/setup/setup.sh` is the entry point documented for a fresh clone, since
+# it does not depend on how the local mise handles an untrusted config.
+#
+# There is deliberately no task for `--check`: `mise run` installs missing
+# pinned tools before starting a task, which would break that flag's promise to
+# change nothing.
+[tasks.setup]
+description = "Set up the workspace: toolchains, dependencies, git hooks, local env files"
+run = "bash tools/setup/setup.sh"
